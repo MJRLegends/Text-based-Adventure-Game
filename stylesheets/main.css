@@ -1,0 +1,27 @@
+#header{
+	text-align: center;
+	background-color: #000000;
+	color: #FFFFFF;
+	padding-top: 1px ;
+	padding-bottom: 1px;
+}
+
+#wrapper{
+	text-align: center;
+}
+
+input[type='button']{
+	width: 150px;
+	height: 25px;
+}
+
+input[type='text']{
+	width: 275px;
+	height: 25px;
+}
+
+textarea {
+    overflow-y: scroll;
+    height: 250px;
+    resize: none;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Text based Adventure Game.</title>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="scripts/main.js"></script>
+		<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+	</head>
+
+	<body>
+		<div id="header">
+			<h1> Text based Adventure Game! </h1>
+		</div>
+		<div id="wrapper">
+			<form name="game">
+				<p> Enter a command here: <input type="text" size="25" id="inputBox" /></p>				
+				<input type="button" value="Send Command!" onclick="mainGame()"/>
+			</form>
+			<textarea cols="150" rows="20"id="console"></textarea>
+		</div>
+	</body>
+</html>
